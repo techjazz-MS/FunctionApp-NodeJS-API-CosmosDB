@@ -4,6 +4,6 @@ module.exports = async function (context, req) {
     
     context.res = {
         status: 200,
-        body: "Hello" + (req.body.name)
+        body: "Hello " + (req.body.name)
     };
 };
